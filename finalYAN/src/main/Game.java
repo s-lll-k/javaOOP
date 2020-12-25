@@ -6,15 +6,15 @@ public class Game {
     private GameStatus status;
     private Move ArrayList;
     private Player player;
-private Move move;
-private Board board;
-private GameView gameView;
-    public Game(Player currentTurn,GameStatus status, Move ArrayList ){
+    private Move move;
+    private Board board;
+    private GameView gameView;
+    public Game(Player currentTurn,GameStatus status, Move ArrayList, Player player){
         this.currentTurn=currentTurn;
         this.status=status;
         this.ArrayList=ArrayList;
-        this.move=new Move();
-        this.board=new Board();
+        this.move= new Move();
+        this.board= new Board();
         this.player=player;
     }
 

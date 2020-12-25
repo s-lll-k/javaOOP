@@ -7,11 +7,11 @@ public class Box {
 
     private int x;
     private int y;
-public Box(int x,int y){
-    this.x=x;
-    this.y=y;
-    this.piece=new Piece();
-}
+    public Box(int x,int y){
+        this.x=x;
+        this.y=y;
+        this.piece=new Piece();
+    }
 
     public Box() {
 
